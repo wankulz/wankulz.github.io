@@ -1,0 +1,10 @@
+User-Agent: Googlebot
+Disallow: /Wankuls/
+Disallow: /fonts/
+
+User-Agent: Bingbot
+Disallow: /Wankuls/
+Disallow: /fonts/
+
+User-Agent: *
+
