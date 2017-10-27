@@ -20,14 +20,14 @@ body, h1, p.lead, footer {
 	font-family: 'HelveticaLight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-p, body, h1, footer {
+p, body, footer {
     margin-top: 10px;
     margin-bottom: 50px;
     margin-right: 40px;
     margin-left: 40px;
 }
 
- p, footer {
+ h1, p, footer {
     text-align: center;
 }
 
