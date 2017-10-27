@@ -15,19 +15,24 @@ img.center {
   font-style: normal;
 }
 
-body, h1, p.lead, footer {
+body, p.lead, footer {
 	color: #666666;
 	font-family: 'HelveticaLight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-p, body, h1, footer {
+h1 {
+	color: #231f20;
+	font-family: 'HelveticaLight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p, body, footer {
     margin-top: 10px;
     margin-bottom: 50px;
     margin-right: 40px;
     margin-left: 40px;
 }
 
- p, footer {
+ h1, p, footer {
     text-align: center;
 }
 
