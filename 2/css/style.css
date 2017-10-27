@@ -15,7 +15,7 @@ img.center {
   font-style: normal;
 }
 
-body, h1, p.lead, footer {
+body, p.lead, footer {
 	color: #666666;
 	font-family: 'HelveticaLight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
