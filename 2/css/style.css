@@ -20,6 +20,11 @@ body, h1, p.lead, footer {
 	font-family: 'HelveticaLight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+h1 {
+	color: #231f20;
+	font-family: 'HelveticaLight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 p, body, footer {
     margin-top: 10px;
     margin-bottom: 50px;
