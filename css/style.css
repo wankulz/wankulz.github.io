@@ -54,6 +54,11 @@ color: #f6891e;
 
 }
 
+.images {
+  display: flex;
+  padding: 5px;
+}
+
 
 .img-holder p1 {
   position: absolute;
