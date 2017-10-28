@@ -25,7 +25,7 @@ h1 {
 	font-family: 'HelveticaLight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-p, body, footer {
+p, p1, body, footer {
     margin-top: 10px;
     margin-bottom: 50px;
     margin-right: 40px;
@@ -61,7 +61,7 @@ div.item {
     /* To horizontally center images and caption */
     text-align: center;
     /* The width of the container also implies margin around the images. */
-    width: 120px;
+    width: 320px;
 }
 
 .caption {
@@ -69,12 +69,7 @@ div.item {
     display: block;
 }
 
-p1 {
-    margin-top: 10px;
-    margin-bottom: 50px;
-    margin-right: 40px;
-    margin-left: 40px;
-}
+
 
  
 
