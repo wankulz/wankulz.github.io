@@ -58,19 +58,19 @@ color: #f6891e;
   display: flex;
   padding: 5px;
 }
-
 .img-holder {
   position: relative;
   margin: 5px;
   align-self: flex-start;
 }
-
-.img-holder p1 {
+.img-holder p {
   position: absolute;
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
   text-align: center;
+  margin: 0;
+}
  
 
