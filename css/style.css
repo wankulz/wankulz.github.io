@@ -57,9 +57,6 @@ color: #f6891e;
 .container a {
     display: inline-block;
     vertical-align: top; /* Adjust if multi-line text */
-    margin: 10px;
-    padding: 5px;
-    width: 320px;
     color: #333;
     text-align: center;
     text-decoration: none;
