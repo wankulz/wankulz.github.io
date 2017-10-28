@@ -59,6 +59,11 @@ color: #f6891e;
   padding: 5px;
 }
 
+.img-holder {
+  position: relative;
+  margin: 5px;
+  align-self: flex-start;
+}
 
 .img-holder p1 {
   position: absolute;
