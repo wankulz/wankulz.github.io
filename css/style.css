@@ -54,19 +54,21 @@ color: #f6891e;
 
 }
 
-.container a {
-    display: inline-block;
-    vertical-align: top; /* Adjust if multi-line text */
-    color: #333;
-    text-align: center;
-    text-decoration: none;
+.images {
+  display: flex;
+  padding: 5px;
 }
-.container a img {
-    display: block;
-    margin: auto;
-    border: 0;
+.img-holder {
+  position: relative;
+  margin: 5px;
+  align-self: flex-start;
 }
-.container a span {
-    display: block;
-}
+.img-holder p {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+ 
 
