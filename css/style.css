@@ -54,23 +54,31 @@ color: #f6891e;
 
 }
 
-.images {
-  display: flex;
-  padding: 5px;
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 120px;
 }
-.img-holder {
-  position: relative;
-  margin: 5px;
-  align-self: flex-start;
+img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
 }
-.img-holder p1 {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  text-align: center;
-  margin: 0;
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
 }
+
+p1 {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
  
 
