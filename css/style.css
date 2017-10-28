@@ -61,7 +61,7 @@ div.item {
     /* To horizontally center images and caption */
     text-align: center;
     /* The width of the container also implies margin around the images. */
-    width: 320px;
+    width: 250px;
 }
 
 .caption {
