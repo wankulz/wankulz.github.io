@@ -25,7 +25,7 @@ h1 {
 	font-family: 'HelveticaLight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-p, body, footer {
+p, .p1, body, footer {
     margin-top: 10px;
     margin-bottom: 50px;
     margin-right: 40px;
@@ -52,6 +52,21 @@ a:hover {
 text-decoration: none;
 color: #f6891e;
 
+}
+
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 290px;
+}
+
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
 }
 
 
