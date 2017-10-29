@@ -22,6 +22,7 @@ body, p.lead, footer {
 
 h1, h2, h3 {
 	color: #231f20;
+	text-align: center;
 	font-family: 'HelveticaLight', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
